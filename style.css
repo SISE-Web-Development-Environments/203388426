@@ -62,3 +62,7 @@ h2,h1{
 div{
 	padding-left: 40%;
 }
+.QR{
+	margin: 10px auto 20px;
+    display: block;
+}
