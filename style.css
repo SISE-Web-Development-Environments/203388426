@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=B612+Mono:700&display=swap');
+
 #menu
 {
 	
@@ -43,17 +44,21 @@ header{
 section{
 	font-weight: 200;
 }
-h2{
+h2,h1{
 	text-align: center;
 }
 .images{
-	margin: 10px;
-  	/*margin-left: 10px;
-	margin-right: 10px;*/
+	margin: 12px;
+  	/*margin-left: 5px;
+	margin-right: 5px;*/
 	 
 }
 .song{
 	display: block;
 	width: auto;
 	margin: 0 auto; 
+}
+
+div{
+	padding-left: 40%;
 }
