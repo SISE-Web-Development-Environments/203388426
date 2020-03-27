@@ -105,7 +105,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 <article>
   <h2>
-    Give me a Like
+    Like
   </h2>
 </article>
 <div class="fb-like" data-href="https://github.com/SISE-Web-Development-Environments/assignment1-Oranshich/index.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"> </div>
@@ -145,14 +145,48 @@
 <br/>
 <article>
   <h2>
-    Answers
+    Q&A
   </h2>
 </article>
 
 <br/>
-<p dir="rtl">
-  <h4 dir="rtl"> 1. שלושה הבדלים בין web1 לweb2 </h4>
-
+<h4 dir="rtl"> 1. שלושה הבדלים בין web1 לweb2 </h4>
+<p dir="RTL" style="margin-top:0in;margin-right:20pt;">
+<ol dir="RTL" style="margin-top:0in;margin-right:50pt;">
+  <li>
+    <ul dir="rtl">
+      <li>web1:קריאה בלבד.</li>
+      <li>web2:קריאה וכתיבה.</li>
+      <li>web3:קריאה, כתיבה והרצה.</li>
+    </ul>  
+  </li>
+  <br/>
+  <li>
+    <ul dir="rtl">
+      <li>web1:דפי טקסט.</li>
+      <li>web2:דפים דו-כיוונים,wikies, וידאו</li>
+      <li>web3:פורטלים תלת מימדיים, פרופילים, סביבות וירטואלייות.</li>
+    </ul>  
+  </li>
+  <br/>
+  <li>
+    <ul dir="rtl">
+      <li>web1:חברות פירסמו תוכן שאנשים צורכים.</li>
+      <li>web2:אנשים פירסמו תוכן שאנשים יכולים לצרוך ובנו פלטפורמות שאנשים יוכלו לפרסם שם תוכן.</li>
+      <li>web3:אנשים בנו אפליקציות שאנשים יוכלו ליצור אינטרקציה בינהם ולפרסם שירותים לאנשים .</li>
+    </ul>  
+  </li>
+</ol>
+<br/>
+</p>
+<p dir="RTL" style="margin-top:0in;margin-right:20pt;">
+  <h4 dir="rtl"> 2. ההבדלים בחיפוש בין web1 2 ו 3 כאשר מתבצע חיפוש של "תופעות לוואי של תרופות" הן: </h4>
+<br/>
+<ul dir="RTL" style="margin-top:0in;margin-right:50pt;">
+  <li>web1:בשביל למצוא תוכן הקשור לחיפוש, המשתמש יצטרך לרשום URL ספיציפי לאתר המדבר על תופעות לוואי של תרופות.</li>
+  <li>web2: המשתמש יזין את המילים במנועי חיפוש הנמצאים ברשת והאצר יאחזר לו את כל הלינקים לאתרים שהמילים האלה נמצאות בו.</li>
+  <li>web3:כאשר המשתמש יזין מילות חיפוש בURL או במנוע חיפוש יוחזר לו כל התיוגים שמכילים את המילים שחיפש וכל מה שקשור (סמנטיקה) לחיפוש שביצע.</li>
+</ul>  
 </p>
 <br/>
 <br/>
@@ -164,17 +198,13 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <article>
   <h2>
     Contact Me
   </h2>
 </article>
 <br/>
-<form id="mail" action="mailto:shichman@post.bgu.ac.il" method="GET" autocomplete="on">
+<form id="mail" action="mailto:shichman@post.bgu.ac.il?Subject=Hi oran!" method="POST" autocomplete="on" enctype="text/plain">
 <div>
   <strong>Name: </strong>
 </div>
@@ -182,30 +212,24 @@
   <div>
   <input name="name" type="text" size="33" >
 </div>
-<div>
-  <strong>Subject: </strong>
-</div> 
-<div>
-  <input name="subject" type="text"  size="33">
-</div>
+
 <div>
   <strong>Leave a comment: </strong>
 </div>
 <div>
   <textarea name="body" type="text" rows="4" cols="36" ></textarea>
 </div>
-<br/>
 <div>
   <strong>Choose emoji:</strong>
-<select name="body"  id="emoji">
+<select name="emoji" autofocus>
   <option>&#128512;</option>
   <option>&#128525;</option>
   <option>&#128151;</option>
+  <option>&#9995;</option>
 </select>
 </div>
-<br/>
 <div>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Send"  >
 </div>
 </form>
 <br/>

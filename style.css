@@ -80,3 +80,6 @@ div{
   margin-right: auto;
   margin-left: auto;
 }
+h4,p{
+	padding-right: 50px;
+}
